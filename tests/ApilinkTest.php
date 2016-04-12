@@ -1,8 +1,8 @@
 <?php
 
-use dinesho\apilink\apilink;
+use Dinesho\Apilink\Apilink;
 
-class ApiLinkTest extends PHPUnit_Framework_TestCase {
+class ApilinkTest extends PHPUnit_Framework_TestCase {
 
     public function testTimestamp()
     {
