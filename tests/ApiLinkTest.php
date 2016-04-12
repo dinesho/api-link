@@ -1,6 +1,6 @@
 <?php
 
-use Dinesho\ApiLink\ApiLink;
+use dinesho\apilink\apilink;
 
 class ApiLinkTest extends PHPUnit_Framework_TestCase {
 

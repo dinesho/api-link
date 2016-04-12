@@ -1,5 +1,5 @@
 {
-    "name": "Dinesho/ApiLink",
+    "name": "dinesho/apilink",
     "description": "Simple REST API authentication library",
     "license": "MIT",
     "keywords": ["apilink"],

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dinesho\ApiLink;
+namespace dinesho\apilink;
 
-class ApiLink {
+class apilink {
 
     var $API_KEY = null;
     var $SECRET_KEY = null;
