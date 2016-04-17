@@ -18,12 +18,10 @@ class Apilink {
         $this->SECRET_KEY = $secret_key;
         $this->TTL = $ttl;
         $this->TIMESTAMP = time();
+        $this->SECURITY_TOKEN = $this->API_KEY.$this->SECRET_KEY;
         return $this;
     }
 
-    public function generateSecurityToken(){
-        $this->SECURITY_TOKEN = $this->API_KEY.$this->SECRET_KEY;
-    }
 
     public function setRequestURL($url){
         $this->REQUEST_URL = $url;
