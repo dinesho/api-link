@@ -1,8 +1,8 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+## Apilink
 
-TODO: Write a project description
+Apilink is a HMAC,SHA based simple authentication library for REST APIs. You can generate API KEY, SECRET KEY pair and use  them
+to validate API request from each user who has an API KEY. Apilink library validates the user authenticity and also guard requests
+against replay attacks by using a TTL and timestamp validation. Read below to explore how to install and use.
 
 ## Installation
 
@@ -31,6 +31,3 @@ TODO: Write credits
 ## License
 
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
