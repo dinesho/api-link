@@ -4,13 +4,13 @@ namespace Dinesho\Apilink;
 
 class Apilink {
 
-    var $API_KEY = null;
-    var $SECRET_KEY = null;
-    var $SECURITY_TOKEN = null;
-    var $PAYLOAD = null;
-    var $SIGNATURE = null;
-    var $TTL = null;
-    var $TIMESTAMP = null;
+    var $API_KEY = null;        // Api key for the requesting user
+    var $SECRET_KEY = null;     // Secret key of the requesting user
+    var $SECURITY_TOKEN = null; // Generated security token from Api and Security keys
+    var $PAYLOAD = null;        // Payload array with post variables
+    var $SIGNATURE = null;      // Generated signature for the request
+    var $TTL = null;            // Time to live for a request [1000 -> 1000 Seconds from the created time]
+    var $TIMESTAMP = null;      // Request created time
 
     /*
      * Creates and returns an Apilink object for a given
