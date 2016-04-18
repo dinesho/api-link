@@ -6,7 +6,7 @@ against replay attacks by using a TTL and timestamp validation. Read below to ex
 
 ## Installation
 
-TODO: Describe the installation process
+Install via composer `composer require dinesho/apilink`
 
 ## Usage
 
